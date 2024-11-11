@@ -1,0 +1,154 @@
+/* Dark Theme */
+[data-bs-theme="dark"] {
+	--bs-body-bg: #000 !important;
+
+
+	.bg-light,
+	.text-bg-light,
+	.btn-light,
+	.btn-outline-light:hover {
+		background-color: #df8b7b !important;
+		border-color: #df8b7b !important;
+	}
+	.btn-outline-light {
+		border-color: #df8b7b !important;
+	}
+	.navbar {
+		background-color: #e9e107 !important;
+	}
+
+	.nav-link {
+		color: #000 !important;
+	}
+
+	.bi:hover {
+		fill: #d81835 !important;
+		transition: 0.3s;
+	}
+
+	.card-text,
+	.fs-5 {
+		color: #fdf2f4 !important;
+	}
+
+	.list-group-item a {
+		color: #df8b7b !important;
+	}
+
+	.list-group-item a:hover {
+		color: #d81835 !important;
+	}
+
+	::selection {
+		background: #d81835 !important;
+	}
+
+	#accountDropdown {
+		color:#fff !important;
+		background-color: #274773 !important;
+	}
+
+	#themeBtn {
+		color: #fff !important;
+		background-color: #274773 !important;
+	}
+
+	.nav-link.active {
+		color:#fff !important;
+		background-color: #274773 !important;
+	}
+}
+
+
+/* Light theme */
+[data-bs-theme="light"] {
+	--bs-body-bg: #fef6f8 !important;
+
+	.bg-dark,
+	.text-bg-dark,
+	.btn-dark,
+	.btn-outline-dark:hover {
+		background-color: #b39b14 !important;
+		border-color: #b39b14 !important;
+	}
+
+	.btn-outline-dark {
+		border-color: #b39b14 !important;
+	}
+
+	.navbar {
+		background-color: #f8f016 !important;
+	}
+
+	.bi:hover {
+		fill: #e72744 !important;
+		transition: 0.3s;
+	}
+
+	.card-text,
+	.fs-5 {
+		color: #0d0204 !important;
+	}
+
+	.list-group-item a {
+		color: #b39b14 !important;
+	}
+
+	.list-group-item a:hover {
+		color: #e72744 !important;
+	}
+
+	::selection {
+		background: #e72744 !important;
+	}
+
+	#accountDropdown {
+		background-color: #35a834 !important;
+	}
+
+	#themeBtn {
+		background-color: #35a834 !important;
+	}
+
+	.nav-link.active {
+		background-color: #35a834 !important;
+	}
+	
+}
+
+/* ^^^ EDIT these hexcodes to change overall color */
+
+.tag {
+	background-color: #6c757d;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 20px;
+	display: inline-flex;
+	align-items: center;
+	margin: 5px 5px 5px 0;
+}
+.tag .remove-tag {
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+.popover-header {
+	background: var(--bs-danger) !important;
+}
+
+.hero {
+    background-image: url(../images/background.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100dvw;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+	width: 0em;
+}
+
+.index-body{
+	overflow-y: hidden; /* Hide scrollbars */
+}
